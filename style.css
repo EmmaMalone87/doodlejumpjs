@@ -1,0 +1,35 @@
+.grid{
+    width: 400px;
+    height: 600px;
+    background-image: url('img/sky.png');
+    position: relative;
+    font-size: 200px;
+    text-align: center;
+    margin-left: 500px;
+}
+
+.doodler{
+    width: 60px;
+    height: 85px;
+    background-image: url('img/doodlegareth.png');
+    position: absolute;
+}
+
+.platform{
+    width: 85px;
+    height: 15px;
+    background-color: green;
+    position: absolute;
+}
+
+.button{
+    margin-top: 10px;
+    margin-left: 675px;
+}
+
+@media only screen and (max-width:900px) {
+    .grid{
+        background-position: center;
+        margin:0,50,0,50;
+    }
+  }
